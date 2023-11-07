@@ -47,11 +47,11 @@ toml_datetime = { version = "0.6.5", path = "../toml_datetime", features = ["ser
 serde_spanned = { version = "0.6.4", path = "../serde_spanned", features = ["serde"] }
 
 [dev-dependencies]
-serde = { version = "1.0.160", features = ["derive"] }
-serde_json = "1.0.96"
+serde = { version = "1.0.192", features = ["derive"] }
+serde_json = "1.0.108"
 toml-test-harness = "0.4.8"
 toml-test-data = "1.5.0"
-snapbox = "0.4.11"
+snapbox = "0.4.14"
 
 [[test]]
 name = "decoder_compliance"
